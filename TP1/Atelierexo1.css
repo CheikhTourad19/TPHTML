@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(172, 171, 171);
+}
+legend {
+  background-color: rgb(159, 158, 158);
+  font-size: 30px;
+  padding: 12px;
+  border-radius: 10px;
+  color: white;
+}
+fieldset {
+  background-color: white;
+  width: 70%;
+  margin-top: 10%;
+  border: none;
+  border-radius: 20px;
+}
+label {
+  font-size: 20px;
+  height: 40px;
+}
+
+button {
+  background-color: orangered;
+  width: 200px;
+  color: white;
+  padding: 15px;
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+}
+td {
+  width: 30%;
+  height: 30px;
+}
+tr {
+  padding: 10px;
+}
+input {
+  height: 30px;
+  width: 300px;
+  margin-top: 5%;
+}
+table {
+  width: 100%;
+}
+form {
+  width: 100%;
+}
