@@ -16,13 +16,81 @@
 <form action="">
 <fieldset class="info1">
 <legend>Informations personelles</legend>
-</fieldset>
-<fieldset class="info2">
+    <label for="nom">Nom ou Nick<input id="nom" name="nom" type="text"></label><br>
+    <label for="ville">Ville-pays :
+        <select name="ville" id="ville">
+            <option>
+                Grenoble-France
+            </option>
+            <option>
+                Monastir-Tunisie
+            </option>
+            <option>
+                Limoges-France
+            </option>
+            <option>
+                Paris-France
+            </option>
+            <option>
+                Sfax-Tunisie
+            </option>
+        </select>
+    </label><br>
+    <b>sexe : </b>
+    <label for="h">Masculin
+        <input type="radio" name="sexe" >
+    </label>
+    <label for="f">Féminin
+        <input type="radio" name="sexe" >
+    </label>
+    <label for="i">Indeterminée
+        <input type="radio" name="sexe" >
+    </label><br>
+    <label  for="age">Age :
+        <select id="age" name="ville" >
+            <option>
+                0-15
+            </option>
+            <option>
+                16-30
+            </option>
+            <option>
+                31-50
+            </option>
+            <option>
+                50- ou plus
+            </option>
+
+        </select>
+    </label><br>
 
 </fieldset>
-<fieldset class="info2">
+    <div class="info12">
+        <fieldset class="info2">
+            <legend>Votre avis m'interesse</legend>
+            <p>Vous pensez que la leçon:</p>
+            <label for="avis"><input type="checkbox" name="avis" id="">Est trés claire</label><br>
+            <label for="avis"><input type="checkbox" name="avis" id="">Est utile</label><br>
+            <label for="avis"><input type="checkbox" name="avis" id="">Doit etre completé et ameliorée</label><br>
+            <label for="">Le graphisme est :<select name="" id="graph" multiple>
+                <option>Sympa</option>
+                <option>Moyen</option>
+                <option>A revoir</option>
+            </select></label>
 
-</fieldset>
+        </fieldset>
+        <fieldset class="info3">
+            <legend>Des suggestion ?</legend>
+            <textarea name="" id="sug" cols="90" rows="12">Tapez ici toute remarque que vous jugez utile</textarea>
+
+        </fieldset>
+    </div>
+    <div class="buttons">
+        <button id ="ok" type="submit">Envoyer</button>
+        <button id="no" type="reset">Effacer</button>
+
+    </div>
+
 
 </form>
 
