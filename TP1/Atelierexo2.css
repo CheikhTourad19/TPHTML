@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(158,176,70);
+}
+.entete{
+    border: white solid 3px;
+    width : 60%;
+    border-radius: 15px;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    background-color: rgb(188,205,120);
+}
+.entete h2{
+    color: rgb(85,85,85);
+}
+.entete h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 2px 0px white;
+
+}
+fieldset{
+    border: white solid 3px;
+    width : 60%;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+legend h2{
+    color: rgb(23,23,23);
+}
+img{
+    width: 150px;
+}
+.info table{
+    width: 70%;
+}
+.info input,select{
+    width: 60%;
+    height: 20px;
+}
+.info label{
+    text-align: end;
+    padding-left: 20px;
+    font-size: 40px;
+    font-weight: bolder;
+    justify-content: end;
+
+}
+.pre{
+    width: 40%;
+
+}
+
+.info2 table{
+    width: 100%;
+}
+.mess textarea{
+    width: 100%;
+}
+.buttons{
+    width : 60%;
+    margin: auto;
+    margin-top: 40px;
+    align-items: center;
+}
+.buttons button{
+    margin-left: 15%;
+   padding: 10px 30px;
+    border-radius: 25px;
+    background-color: rgb(31,36,10);
+    color: white;
+    font-size: 25px;
+}
+#ok{
+    color: rgb(215,215,160);
+    background-color: rgb(55,64,25);
+}
+
