@@ -75,8 +75,8 @@ img{
     color: white;
     font-size: 25px;
 }
-#ok{
-    color: rgb(215,215,160);
-    background-color: rgb(55,64,25);
+.buttons button:hover {
+    color: rgb(215, 215, 160);
+    background-color: rgb(55, 64, 25);
 }
 
