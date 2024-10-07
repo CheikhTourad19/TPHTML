@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(158,176,70);
+    background-color: rgb(158,188,44);
 }
 .entete{
     border: white solid 3px;
@@ -78,5 +78,9 @@ img{
 .buttons button:hover {
     color: rgb(215, 215, 160);
     background-color: rgb(55, 64, 25);
+}
+.bb{
+    margin-left: 30px;
+    text-align: right;
 }
 

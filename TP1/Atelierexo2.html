@@ -19,11 +19,11 @@
     <legend><h2>Je m'identifie</h2></legend>
     <table>
     <tr>
-        <td><label for="prenom"></label><b>Mon prénom :</b></td>
+        <td><b class="bb">Mon prénom :</b></td>
         <td><input type="text"name="prenom"></td>
     </tr>
         <tr>
-            <td><label for="classe"></label><b>Ma classe :</b></td>
+            <td><label for="classe"></label><b class="bb">Ma classe :</b></td>
             <td><select name="classe">
                 <optgroup label="Secondes">
                     <option>Seconde 1 </option>
@@ -41,11 +41,11 @@
                     </td>
         </tr>
         <tr>
-            <td><label for="email"></label><b>Mon E-mail :</b></td>
+            <td><label for="email"></label><b class="bb">Mon E-mail :</b></td>
             <td><input type="text"name="email"></td>
         </tr>
         <tr>
-            <td><label for="password"></label><b>Mon mot de passe :</b></td>
+            <td><label for="password"></label><b class="bb">Mon mot de passe :</b></td>
             <td><input type="text"name="password"></td>
         </tr>
     </table>
@@ -87,6 +87,17 @@
     </div>
 
 </form>
-
+<script>
+    var x = 5;
+    if (x>=0){
+        alert("x est positif");
+    }else{
+        alert("x est negatif");
+    }
+    for (var i = 0; i < 5; i++) {
+        console.log("i="+i);
+    }
+    console.log("i final ="+i);
+</script>
 </body>
 </html>
