@@ -21,13 +21,13 @@
     margin-left: 5%;
 }
 #b1{
-    background-color: rgb(44,100,246);
+    background-color: rgb(70,105,112);
 }
 #b2{
     background-color: rgb(89,170,83);
 }
 #b3{
-    background-color: black;
+    background-color: rgb(90,91,87);
 }
 
 table{
@@ -39,19 +39,20 @@ table{
 }
 
 th{
-    border: 3px solid black;
+    border: 2px solid black;
+    background-color: rgb(183,182,169);
 }
 .profile{
-    width: 200px;
+    width: 100px;
     padding: 20px;
 }
 td{
-    border: 3px solid black;
+    border: 2px solid black;
 
 }
 .stat{
 
-    flex: 1 1 48%;
+    flex: 1 1 35%;
     border: 1px solid black;
     padding: 10px;
     box-sizing: border-box;
@@ -59,6 +60,9 @@ td{
 .palm{
     background-color: forestgreen;
     color: white;
+    text-align: start;
+    padding-left: 13px;
+    width: 50%;
 }
 .paa{
 
@@ -72,4 +76,7 @@ td{
     font-size: 25px;
     padding: 3px;
     border-radius: 3px;
+}
+#tabl{
+    width: 95%;
 }
