@@ -1,0 +1,75 @@
+#entete h1{
+    color: rgb(44,100,246);
+
+    margin-left: 30%;
+}
+#content{
+    border: solid 5px black;
+}
+#buttons button{
+    padding: 25px 70px;
+    margin: 50px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    color: white;
+
+}
+#entete div{
+    border: solid black 2px;
+    width: 90%;
+    margin-left: 5%;
+}
+#b1{
+    background-color: rgb(44,100,246);
+}
+#b2{
+    background-color: rgb(89,170,83);
+}
+#b3{
+    background-color: black;
+}
+
+table{
+    border: 3px solid black;
+
+    min-width: 100%;
+    margin: 20px;
+
+}
+
+th{
+    border: 3px solid black;
+}
+.profile{
+    width: 200px;
+    padding: 20px;
+}
+td{
+    border: 3px solid black;
+
+}
+.stat{
+
+    flex: 1 1 48%;
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.palm{
+    background-color: forestgreen;
+    color: white;
+}
+.paa{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.name{
+    background-color: rgb(44,100,246);
+    color: white;
+    font-size: 25px;
+    padding: 3px;
+    border-radius: 3px;
+}

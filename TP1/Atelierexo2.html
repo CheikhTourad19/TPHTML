@@ -7,24 +7,31 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="Atelierexo2.css">
+
 </head>
-<body>
+<body >
 <div class="entete">
 <h1>Pique-nique de fin d'année</h1>
     <h2>inscription</h2>
 </div>
-<form>
+<form id="monformulaire">
 
-<fieldset class="info">
+
+    <fieldset class="info">
     <legend><h2>Je m'identifie</h2></legend>
     <table>
     <tr>
         <td><b class="bb">Mon prénom :</b></td>
-        <td><input type="text"name="prenom"></td>
+        <td><input id="prenom" onblur="resett()" onfocus="changeInput()" type="text"name="prenom" value="" ></td>
     </tr>
         <tr>
+            <td><p>sexe</p></td>
+             <td>H:<input type="radio" name="sexe" id="H" value="H"></td>
+            <td>F:<input type="radio" name="sexe" id="F" value="F"></td>
+        </tr>
+        <tr>
             <td><label for="classe"></label><b class="bb">Ma classe :</b></td>
-            <td><select name="classe">
+            <td><select id="select" name="classe">
                 <optgroup label="Secondes">
                     <option>Seconde 1 </option>
                     <option>Seconde 5 </option>
@@ -42,7 +49,7 @@
         </tr>
         <tr>
             <td><label for="email"></label><b class="bb">Mon E-mail :</b></td>
-            <td><input type="text"name="email"></td>
+            <td><input id="email" type="text"name="email"></td>
         </tr>
         <tr>
             <td><label for="password"></label><b class="bb">Mon mot de passe :</b></td>
@@ -50,6 +57,7 @@
         </tr>
     </table>
     <img src="Screenshot%202024-10-05%20at%2010.50.19.png">
+        <p id="classee"></p>
 
 </fieldset>
 <fieldset class="info2">
@@ -79,25 +87,16 @@
 
     </table>
 
-</fieldset>
+</fieldset> 
     <div class="buttons">
-        <button type="submit" id="ok">Je M'inscris</button>
+        <button type="submit" value="Valider" id="ok">Je M'inscris</button>
         <button type="reset">Je Rénitialise Le Fomulaire</button>
+        <button id="myButton" >Clik me</button>
 
     </div>
 
 </form>
-<script>
-    var x = 5;
-    if (x>=0){
-        alert("x est positif");
-    }else{
-        alert("x est negatif");
-    }
-    for (var i = 0; i < 5; i++) {
-        console.log("i="+i);
-    }
-    console.log("i final ="+i);
-</script>
+
 </body>
+<script src="script.js"></script>
 </html>
