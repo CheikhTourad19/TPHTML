@@ -65,7 +65,7 @@ function affichertableau(order) {
     });
 }
 
-function populair() {
+/**function populair() {
     affichertableau(mostpopular);
 }
 function mostview() {
@@ -73,4 +73,4 @@ function mostview() {
 }
 function fastest() {
     affichertableau(fastcroissance);
-}
+}**/
