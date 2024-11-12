@@ -10,6 +10,7 @@
   <h1>Calculatrice</h1>
   <p>Veuiller inserer deux nombres et choisir une operation </p>
     <form action="script.php" method="get">
+        <div>
         <input type="number" name="num1" id="num1">
         <select name="op" id="op">
             <option value="+">+</option>
@@ -18,7 +19,8 @@
             <option value="x">x</option>
         </select>
         <input type="number" name="num2" id="num2"><br>
-        <input type="submit" value="envoyer" >
+        </div>
+        <input type="submit" id="submit" value="envoyer" >
         
     </form>
 </div>
