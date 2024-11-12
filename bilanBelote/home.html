@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BilanBelote</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<center>
+    <h1>Bilan Belote By Gheith</h1>
+    <h3>Score total : <b id="nbrgainA">0</b>--<b id="nbrgainB">0</b></h3>
+    <table id="board">
+        <tr>
+            <th>Team A</th>
+            <th>Team B</th>
+        </tr>
+        <tr>
+            <td><b id="teamAscore">0</b></td>
+            <td><b id="teamBscore">0</b></td>
+        </tr>
+        <tr>
+            <td><input type="number" name="" id="teamAincrement" required></td>
+            <td><input type="number" name="" id="teamBincrement" required></td>
+        </tr>
+
+
+    </table>
+    <button id="calcul" type="submit" onclick=inserer()>Inserer</button>
+
+    <button type="submit"id="capotA" onclick=resetscore()>Recommencer</button>
+
+</center>
+<script src="script.js"></script>
+</body>
+</html>

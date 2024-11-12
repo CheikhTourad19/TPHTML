@@ -1,0 +1,17 @@
+#formulaire{
+    margin-top: 300px;
+    margin-left: 40%;
+}
+#formulaire label{
+    font-size: 30px;
+
+}
+#formulaire input{
+    font-size: 20px;
+}
+#welcome{
+    margin-top: 300px;
+    font-size: 40px;
+    border: solid black 2px;
+    padding: 50px;
+}
