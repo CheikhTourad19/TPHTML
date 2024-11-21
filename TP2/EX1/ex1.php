@@ -1,5 +1,5 @@
 <?php
-$html=<<<HTML
+$html= <<<HTML
 <!DOCTYPE html>
 <html lang="en">
 <head>

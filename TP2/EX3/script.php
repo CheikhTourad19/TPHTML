@@ -1,5 +1,5 @@
 <?php
-$html=<<<HTML
+$html= <<<HTML
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,7 +22,7 @@ if (!empty($num1) && !empty($num2) && !empty($op)) {
         case "-":$result=$num1-$num2;break;
         case "x":$result=$num1*$num2;break;
         case "/":
-            if (!$num2==0) {
+            if ($num2!=0) {
                 $result=$num1/$num2;break;
             }
 
