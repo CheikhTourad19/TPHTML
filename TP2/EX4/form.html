@@ -6,13 +6,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div id="content">
+<h1>Saisir les information du contact </h1>
 <form action="ex4.php" method="post">
   <table>
     <tr>
-      <td></td>
+      <td><label>Nom :</label></td>
+        <td><input type="text" name="nom" id="nom" required></td>
     </tr>
+      <tr>
+          <td><label>Prenom :</label></td>
+          <td><input type="text" name="prenom" id="prenom" required></td>
+      </tr>
+      <tr>
+          <td><label>Numero :</label></td>
+          <td><input type="text" name="numero" id="numero" required></td>
+      </tr>
+      <tr>
+          <td><input type="submit" value="Enregistrer"></td>
+          <td><a href="contact.php">Voir les contacts</a></td>
+      </tr>
   </table>
 </form>
-
+</div>
 </body>
 </html>
