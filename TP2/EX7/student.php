@@ -18,7 +18,7 @@
         }
     </style>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
@@ -31,7 +31,7 @@
 
                     </tr>
                     <tr>
-                        <th colspan="4">No Etudiant <?php echo $_GET['id'] ?></th>
+                        <th colspan="4">No Etudiant <?php if (isset($_GET['id'])){echo $_GET['id'];}else{echo 1;} ?></th>
 
                     </tr>
                 </thead>
@@ -79,7 +79,7 @@
                 </tbody>
             </table>
             <input type="submit" class="btn btn-primary" value="calcul">
-            <a class="btn btn-success" href="student.php?id=<?php echo $_GET['id'] + 1 ?>"> Nouveau</a>
+            <a class="btn btn-success" href="student.php?id=<?php if (isset($_GET['id'])){echo $_GET['id']+1;}else{echo 2;}?>"> Nouveau</a>
         </form>
     </div>
 
