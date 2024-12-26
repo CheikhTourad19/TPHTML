@@ -4,8 +4,13 @@ echo<<<HTML
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
  <style>
  
+ a{
+ margin-left: 45%;
+ }
     center{
     margin-top: 20%;
     }
@@ -50,6 +55,7 @@ try {
     echo $E->getMessage();
     die();
 }
+echo "<tr><td colspan='5' ><a  class='btn btn-primary' href='ajout.html'>Ajouter</a></a></td></tr>";
 echo"</table>";
 echo"</center>";
 echo"</body>";
