@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ajout</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+<center>
+    <form action="ajout.php" method="post">
+        <table class="table">
+            <thead>
+            <tr>
+                <th colspan="4">Ajout d'artiste</th>
+
+            </tr>
+
+            </thead>
+            <tbody>
+
+            <tr>
+
+                <td>nom</td>
+
+                <td><input type="text" name="nom" id="" required></td>
+            </tr>
+            <tr>
+
+                <td>prenom</td>
+
+                <td><input type="text"  name="prenom" id="" required></td>
+            </tr>
+            <tr>
+
+                <td>pays</td>
+
+                <td><input type="text"  name="pays" id="" required></td>
+            </tr>
+            <tr>
+
+                <td>style</td>
+
+                <td><input type="text"  name="style"  required></td>
+            </tr>
+            <tr>
+                <td><input class="btn btn-primary" type="submit" value="Ajouter"></td>
+                <input type="hidden" name="opp" value="ajout" >
+            </tr>
+            </tbody>
+            <table>
+    </form>
+</center>
+
+</body>
+</html>
